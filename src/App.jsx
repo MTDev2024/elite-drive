@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
+import FleetSection from "./components/FleetSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <HeroSection />
         <ServicesSection />
+        <FleetSection />
         <main className="flex-1"></main>
 
         <Footer />
