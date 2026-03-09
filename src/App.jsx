@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
 import FleetSection from "./components/FleetSection";
+import FaqSection from "./components/FaqSection";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <HeroSection />
         <ServicesSection />
         <FleetSection />
+        <FaqSection />
+
         <main className="flex-1"></main>
 
         <Footer />
