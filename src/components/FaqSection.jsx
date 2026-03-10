@@ -3,7 +3,7 @@ import FaqItem from "./ui/FaqItem";
 
 function FaqSection() {
   return (
-    <section className="bg-zinc-950 py-24 px-8">
+    <section id="faq" className="bg-zinc-950 py-24 px-8 min-h-screen">
       <h2 className="text-white tracking-widest uppercase text-center mb-12">
         FAQ
       </h2>

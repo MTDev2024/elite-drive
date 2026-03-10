@@ -2,7 +2,8 @@ import Button from "./ui/Button";
 
 function HeroSection() {
   return (
-    <div
+    <section
+      id="home"
       className="bg-zinc-900 text-white min-h-screen flex flex-col items-center justify-center text-center px-8
 "
     >
@@ -25,7 +26,7 @@ function HeroSection() {
         <Button label="Réserver" variant="primary" onClick={() => {}} />
         <Button label="Découvrir" variant="secondary" onClick={() => {}} />
       </div>
-    </div>
+    </section>
   );
 }
 

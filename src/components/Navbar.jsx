@@ -12,7 +12,7 @@ function Navbar() {
 
       <div className="flex items-center gap-8">
         <NavLink
-          to="/"
+          to="/#home"
           className={({ isActive }) =>
             `tracking-widest uppercase ${isActive ? "text-amber-400" : "text-zinc-400"}`
           }
@@ -21,7 +21,7 @@ function Navbar() {
         </NavLink>
 
         <NavLink
-          to="/services"
+          to="/#services"
           className={({ isActive }) =>
             `tracking-widest uppercase ${isActive ? "text-amber-400" : "text-zinc-400"}`
           }
@@ -30,7 +30,7 @@ function Navbar() {
         </NavLink>
 
         <NavLink
-          to="/vehicules"
+          to="/#vehicules"
           className={({ isActive }) =>
             `tracking-widest uppercase ${isActive ? "text-amber-400" : "text-zinc-400"}`
           }
@@ -39,7 +39,16 @@ function Navbar() {
         </NavLink>
 
         <NavLink
-          to="/contact"
+          to="/#faq"
+          className={({ isActive }) =>
+            `tracking-widest uppercase ${isActive ? "text-amber-400" : "text-zinc-400"}`
+          }
+        >
+          FAQ
+        </NavLink>
+
+        <NavLink
+          to="/#contact"
           className={({ isActive }) =>
             `tracking-widest uppercase ${isActive ? "text-amber-400" : "text-zinc-400"}`
           }
